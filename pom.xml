@@ -8,7 +8,7 @@
         <version>2.6.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.egui</groupId>
+    <groupId>com.gui.estore</groupId>
     <artifactId>DiscoveryServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>DiscoveryServer</name>
@@ -18,6 +18,7 @@
         <spring-cloud.version>2021.0.1</spring-cloud.version>
     </properties>
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
